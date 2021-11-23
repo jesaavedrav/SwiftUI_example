@@ -12,7 +12,9 @@ struct ListItem: View {
     let universityWebsite: String
     
     var body: some View {
-        Button(action: {}){
+        Button(action: {
+            print(universityName)
+        }){
             VStack(alignment: .leading){
                 Text(universityName).padding(.bottom, 15)
                     .font(.system(size: 15, weight: .bold))

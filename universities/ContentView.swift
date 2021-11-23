@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    let options = ["first", "second", "third"]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(){
+            ForEach((0..<options.count), id: \.self){
+                index in
+                ListItem(universityName: options[index], universityWebsite: "www")
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+        }
     }
 }
