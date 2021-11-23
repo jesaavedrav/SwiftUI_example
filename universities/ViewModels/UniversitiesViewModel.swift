@@ -17,7 +17,7 @@ public class UniversitiesViewModel: ObservableObject {
    
    public func callGetUniversities(country: String) {
       self.isBusy = true
-      let queryItems = [URLQueryItem(name: "country", value: "Ecuador")]
+      let queryItems = [URLQueryItem(name: "country", value: country)]
       universitiesService.search(items: queryItems)
          .sink(receiveCompletion: { [weak self] completion in
             self?.isBusy = false
