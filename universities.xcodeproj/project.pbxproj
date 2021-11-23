@@ -14,6 +14,7 @@
 		5A742000274D583E0046D407 /* universitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A741FFF274D583E0046D407 /* universitiesTests.swift */; };
 		5A74200A274D583E0046D407 /* universitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A742009274D583E0046D407 /* universitiesUITests.swift */; };
 		5A74200C274D583E0046D407 /* universitiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A74200B274D583E0046D407 /* universitiesUITestsLaunchTests.swift */; };
+		B5018A9C274D65AA0019145D /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5018A9B274D65AA0019145D /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5A742005274D583E0046D407 /* universitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = universitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A742009274D583E0046D407 /* universitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universitiesUITests.swift; sourceTree = "<group>"; };
 		5A74200B274D583E0046D407 /* universitiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universitiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5018A9B274D65AA0019145D /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				5A741FEE274D583D0046D407 /* universitiesApp.swift */,
 				5A741FF0274D583D0046D407 /* ContentView.swift */,
+				B5018A9B274D65AA0019145D /* ListItem.swift */,
 				5A741FF2274D583E0046D407 /* Assets.xcassets */,
 				5A741FF4274D583E0046D407 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5018A9C274D65AA0019145D /* ListItem.swift in Sources */,
 				5A741FF1274D583D0046D407 /* ContentView.swift in Sources */,
 				5A741FEF274D583D0046D407 /* universitiesApp.swift in Sources */,
 			);
