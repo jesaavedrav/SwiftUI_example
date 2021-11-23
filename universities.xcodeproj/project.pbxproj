@@ -14,7 +14,16 @@
 		5A742000274D583E0046D407 /* universitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A741FFF274D583E0046D407 /* universitiesTests.swift */; };
 		5A74200A274D583E0046D407 /* universitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A742009274D583E0046D407 /* universitiesUITests.swift */; };
 		5A74200C274D583E0046D407 /* universitiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A74200B274D583E0046D407 /* universitiesUITestsLaunchTests.swift */; };
-		B5018A9C274D65AA0019145D /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5018A9B274D65AA0019145D /* ListItem.swift */; };
+		5A74201E274D663E0046D407 /* AppTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A74201D274D663E0046D407 /* AppTargetType.swift */; };
+		5A742021274D66A20046D407 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A742020274D66A20046D407 /* NetworkProvider.swift */; };
+		5A742023274D67F10046D407 /* UniversityDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A742022274D67F10046D407 /* UniversityDTO.swift */; };
+		5A74202A274D6CF20046D407 /* UniversityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A742029274D6CF20046D407 /* UniversityService.swift */; };
+		5A74202D274D6D4B0046D407 /* UniversitiesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A74202C274D6D4B0046D407 /* UniversitiesProvider.swift */; };
+		5A742030274D6E290046D407 /* CoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A74202F274D6E290046D407 /* CoreApp.swift */; };
+		5A742032274D6E630046D407 /* NetworkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A742031274D6E630046D407 /* NetworkSettings.swift */; };
+		5A742038274D71CA0046D407 /* UniversitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A742037274D71CA0046D407 /* UniversitiesViewModel.swift */; };
+		5A9B3695274DAAAD00A8C571 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B3694274DAAAD00A8C571 /* AppError.swift */; };
+		5AB21396274DADBA007E617B /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB21395274DADBA007E617B /* CancelBag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +54,18 @@
 		5A742005274D583E0046D407 /* universitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = universitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A742009274D583E0046D407 /* universitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universitiesUITests.swift; sourceTree = "<group>"; };
 		5A74200B274D583E0046D407 /* universitiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universitiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B5018A9B274D65AA0019145D /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		5A74201D274D663E0046D407 /* AppTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTargetType.swift; sourceTree = "<group>"; };
+		5A742020274D66A20046D407 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		5A742022274D67F10046D407 /* UniversityDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDTO.swift; sourceTree = "<group>"; };
+		5A742029274D6CF20046D407 /* UniversityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityService.swift; sourceTree = "<group>"; };
+		5A74202C274D6D4B0046D407 /* UniversitiesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesProvider.swift; sourceTree = "<group>"; };
+		5A74202F274D6E290046D407 /* CoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreApp.swift; sourceTree = "<group>"; };
+		5A742031274D6E630046D407 /* NetworkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSettings.swift; sourceTree = "<group>"; };
+		5A742034274D6EE70046D407 /* develop.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = develop.xcconfig; sourceTree = "<group>"; };
+		5A742037274D71CA0046D407 /* UniversitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesViewModel.swift; sourceTree = "<group>"; };
+		5A74203D274DA62F0046D407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5A9B3694274DAAAD00A8C571 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		5AB21395274DADBA007E617B /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +116,15 @@
 		5A741FED274D583D0046D407 /* universities */ = {
 			isa = PBXGroup;
 			children = (
+				5A74203D274DA62F0046D407 /* Info.plist */,
+				5A742036274D71870046D407 /* ViewModels */,
+				5A742035274D717F0046D407 /* Views */,
+				5A742033274D6EC60046D407 /* Enviroment */,
+				5A74202E274D6E140046D407 /* Configuration */,
+				5A742028274D6A010046D407 /* Extensions */,
+				5A74201A274D65900046D407 /* Network */,
 				5A741FEE274D583D0046D407 /* universitiesApp.swift */,
-				5A741FF0274D583D0046D407 /* ContentView.swift */,
-				B5018A9B274D65AA0019145D /* ListItem.swift */,
+				5A742018274D65780046D407 /* Models */,
 				5A741FF2274D583E0046D407 /* Assets.xcassets */,
 				5A741FF4274D583E0046D407 /* Preview Content */,
 			);
@@ -128,6 +154,91 @@
 				5A74200B274D583E0046D407 /* universitiesUITestsLaunchTests.swift */,
 			);
 			path = universitiesUITests;
+			sourceTree = "<group>";
+		};
+		5A742018274D65780046D407 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A742022274D67F10046D407 /* UniversityDTO.swift */,
+				5A9B3694274DAAAD00A8C571 /* AppError.swift */,
+				5AB21395274DADBA007E617B /* CancelBag.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A742019274D657E0046D407 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5A742029274D6CF20046D407 /* UniversityService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5A74201A274D65900046D407 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5A74201C274D66240046D407 /* Commons */,
+				5A74201B274D65F90046D407 /* Providers */,
+				5A742019274D657E0046D407 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5A74201B274D65F90046D407 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				5A74202C274D6D4B0046D407 /* UniversitiesProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		5A74201C274D66240046D407 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				5A74201D274D663E0046D407 /* AppTargetType.swift */,
+				5A742020274D66A20046D407 /* NetworkProvider.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		5A742028274D6A010046D407 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5A74202E274D6E140046D407 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				5A74202F274D6E290046D407 /* CoreApp.swift */,
+				5A742031274D6E630046D407 /* NetworkSettings.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		5A742033274D6EC60046D407 /* Enviroment */ = {
+			isa = PBXGroup;
+			children = (
+				5A742034274D6EE70046D407 /* develop.xcconfig */,
+			);
+			path = Enviroment;
+			sourceTree = "<group>";
+		};
+		5A742035274D717F0046D407 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A741FF0274D583D0046D407 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A742036274D71870046D407 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A742037274D71CA0046D407 /* UniversitiesViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +373,17 @@
 			files = (
 				B5018A9C274D65AA0019145D /* ListItem.swift in Sources */,
 				5A741FF1274D583D0046D407 /* ContentView.swift in Sources */,
+				5A742023274D67F10046D407 /* UniversityDTO.swift in Sources */,
+				5AB21396274DADBA007E617B /* CancelBag.swift in Sources */,
+				5A742030274D6E290046D407 /* CoreApp.swift in Sources */,
+				5A74202D274D6D4B0046D407 /* UniversitiesProvider.swift in Sources */,
+				5A742021274D66A20046D407 /* NetworkProvider.swift in Sources */,
+				5A74202A274D6CF20046D407 /* UniversityService.swift in Sources */,
 				5A741FEF274D583D0046D407 /* universitiesApp.swift in Sources */,
+				5A74201E274D663E0046D407 /* AppTargetType.swift in Sources */,
+				5A9B3695274DAAAD00A8C571 /* AppError.swift in Sources */,
+				5A742038274D71CA0046D407 /* UniversitiesViewModel.swift in Sources */,
+				5A742032274D6E630046D407 /* NetworkSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +547,7 @@
 				DEVELOPMENT_TEAM = FL6AUE9XT8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = universities/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,6 +577,7 @@
 				DEVELOPMENT_TEAM = FL6AUE9XT8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = universities/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

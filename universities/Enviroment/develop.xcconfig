@@ -1,0 +1,13 @@
+//
+//  develop.xcconfig
+//  universities
+//
+//  Created by Jorge Saavedra on 23/11/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SERVER_PROTOCOL = http
+SERVER_URL = universities.hipolabs.com/
+ENV_NAME = DEV
