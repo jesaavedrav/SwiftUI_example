@@ -26,6 +26,7 @@ struct ListItem: View {
             maxWidth: .infinity,
             alignment: .topLeading
           )
+            .buttonStyle(PlainButtonStyle())
     }
 }
 
