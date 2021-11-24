@@ -13,25 +13,6 @@ import Combine
 public final class NetworkProvider<Target: AppTargetType>: NSObject, URLSessionDelegate {
    public lazy var session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)
    
-   public func perform(_ target: Target, _ decoder: JSONDecoder = JSONDecoder()) -> AnyPublisher<[UniversityDTO], AppError> {
-      let request = getRequest(target: target)
-      NetworkProvider.log(request: request)
-      return session.dataTaskPublisher(for: request)
-         .tryMap { result -> [UniversityDTO] in
-            NetworkProvider.log(response: result.response as? HTTPURLResponse, data: result.data, error: nil)
-            let data = try decoder.decode([UniversityDTO].self, from: result.data)
-            guard data.count > 0 else {
-               throw AppError.custom(description:  "Error parseando")
-            }
-            return data
-         }
-         .mapError({
-            return ($0 as? AppError) ?? AppError.unknown
-         })
-         .receive(on: DispatchQueue.main)
-         .eraseToAnyPublisher()
-   }
-   
    public func performRequest(_ target: Target) -> AnyPublisher<[UniversityDTO], Error> {
       let request = getRequest(target: target)
       //NetworkProvider.log(request: request)
