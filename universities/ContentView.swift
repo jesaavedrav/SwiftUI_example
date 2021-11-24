@@ -9,12 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     let options = ["first", "second", "third"]
+    @State var navigateToSecond: Bool = false
     
     var body: some View {
-        List(){
-            ForEach((0..<options.count), id: \.self){
-                index in
-                ListItem(universityName: options[index], universityWebsite: "www")
+        NavigationView {
+            VStack{
+                List(){
+                    ForEach((0..<options.count), id: \.self){
+                        index in
+                        ListItem(universityName: options[index], universityWebsite: "www", navigateToSecond: $navigateToSecond)
+                    }
+                }.navigationTitle("SwiftUI")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .background(
+                                        NavigationLink(
+                                            destination: UniversityDetails(universityName: "USFQ", universityCountry: "Ecuador", universityCountryCode: "EC", universityWebsite: "www.usfq.edu.ec", universityDomain: "usfq.edu.ec"),
+                                            isActive: $navigateToSecond,
+                                            label: {
+                                                EmptyView()
+                                            })
+                                            .hidden()
+                                    )
             }
         }
     }
